@@ -1,0 +1,15 @@
+{
+  "name": "yarn-node-versions-showcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "echo-node-data": "node --version",
+    "start": "node .",
+    "start:yarn": "fnm use 11 && yarn start",
+    "start:no-yarn": "fnm use 11 & npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
