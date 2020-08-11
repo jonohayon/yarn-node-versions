@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "echo-node-data": "node --version",
-    "start": "node .",
-    "start:yarn": "fnm use 11 && yarn start",
-    "start:no-yarn": "fnm use 11 & npm start"
+    "start": "node ."
   },
   "author": "",
   "license": "ISC",
